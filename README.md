@@ -1,7 +1,7 @@
 # plain-grammar
 Step 1 - Parser generator written in Python
 
-## Simple inpuut grammar
+## Simple input grammar
 
 ```c
 
