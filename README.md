@@ -1,7 +1,7 @@
 # plain-grammar
-Parser generator written in Python
+Step 1 - Parser generator written in Python
 
-## Simple C grammar
+## Simple inpuut grammar
 
 ```c
 
@@ -100,6 +100,8 @@ class Parser (Lexer) :
          self.parse_stat ()
 ```
 
+![pictures/plain_view.png](pictures/plain_view.png)
+
 ## Grammar which describes grammar
 
 Grammar is a list of rules
@@ -134,5 +136,3 @@ Grammar expression consists of left parenthesis, description, right parenthesis 
 ```
 ebnf : "(" description ")" ( "?" | "*" | "+" |   ) ;
 ```
-
-![pictures/plain_view.png](pictures/plain_view.png)
